@@ -1,4 +1,4 @@
-// HTML templates
+// HTML template
 function answerTemplate(_question_id, _i, question_text){
     let answers = ["a", "b", "c", "d", "e", "f", "g"];
 
@@ -8,4 +8,12 @@ function answerTemplate(_question_id, _i, question_text){
         <label for="${answers[_i]}">${answers[_i].toUpperCase}</label>
         <span id="answer-${_question_id}-${_i}">${question_text}</span>
     </li>`
+}
+
+
+// GUI functions
+function clickRadio(_parentNode){
+    _parentNode.onclick = function(){
+        this.querySelector("input:radio").prop('checked', true)
+    }
 }

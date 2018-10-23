@@ -3,25 +3,25 @@
         "id" : 1,
         "question" : "question text 1",
         "answers" : "dude\nwhere's\nmy\ncar?",
-        "answerKey" : "a"
+        "answerKey" : "b"
     },
     {
         "id" : 2,
         "question" : "question text 2",
         "answers" : "do\nre\nmi\nfa",
-        "answerKey" : "b"
+        "answerKey" : "a"
     },
     {
         "id" : 3,
         "question" : "question text 3",
         "answers" : "Writing's\non\nthe\nwall",
-        "answerKey" : "c"
+        "answerKey" : "d"
     },
     {
         "id" : 4,
         "question" : "question text 4",
-        "answers" : "A\nstiff\nupper\nlip",
-        "answerKey" : "d"
+        "answers" : "I\nwant\nit\nall!",
+        "answerKey" : "c"
     },
     {
         "id" : 5,
@@ -34,5 +34,6 @@
         "question" : "question text 6",
         "answers" : "To\nthine\nown\nself\nbe\ntrue",
         "answerKey" : "b"
-    },
+    }
+    
 ]

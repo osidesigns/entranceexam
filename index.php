@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,8 +22,7 @@
 		</header>
 		<div class="container">
 			<ul id="answers" class="list-group">
-				<li class="answer-item list-group-item">
-						
+				<li class="answer-item list-group-item">	
 					<input type="radio" name="answer" value="a" class="answer">
 					<label for="a">A</label>
 					<span id="answer-1-a">Lorem ipsum dolor sit.</span>
@@ -57,7 +57,7 @@
 			<span>{num}</span> / <span>{questions.length}</span>
 		</div>	
 	</footer>
-	
+	<script src="js/templates.js">
 	<script src="js/jsFunctions.js"></script>
 
 </body>
