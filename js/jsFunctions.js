@@ -10,11 +10,12 @@ submitBtn.onclick = captureAns;
 function captureAns(e){
 
 	e.preventDefault();
-	var answers = document.querySelectorAll("input[type='radio']");
+	var answers = document.querySelectorAll("li.answer-item input[type='radio']");
 
 	for(var i = 0; i < answers.length; i++){
 		if(answers[i].checked === true){
 			answer = answers[i].value;
+			console.log(typeof answer);
 		}
 	}
 
@@ -30,9 +31,9 @@ function gradeTest(userAnswers){
 	var answerKey = ['b', 'a', 'd', 'c', 'a', 'b'];
 	for(var i = 0; i < userAnswers.length; i++){
 		if(userAnswers[i] != answerKey[i]){
-			console.log("Incorrect <br />");
+			console.log("Incorrect");
 		}else{
-			console.log("Correct <br />");
+			console.log("Correct");
 		}
 	}
 }
