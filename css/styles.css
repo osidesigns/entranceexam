@@ -8,11 +8,10 @@ body{
 }
 
 #test{
-	width: 100%;
-	margin: 0 auto;
 	height: 100vh;
+	margin: 0 auto;
+	width: 100%;
 }
-
 
 #question{
 	background: var(--fs-purple, #ab61c4);
@@ -21,51 +20,58 @@ body{
 }
 
 #footer{
-	position: absolute;
+	align-items: center;
+	background: var(--fs-purple, #ab61c4);
 	bottom: 0;
+	color: white;
+	display: flex;
 	width: 100%;
 	height: 2em;
-	background: var(--fs-purple, #ab61c4);
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	color: white;
 	font-size: 1.2em;
+	justify-content: flex-end;
 	padding: .5em;
+	position: absolute;
 }
 .counter{
+	align-items: center;
 	display: flex;
 	justify-content: flex-end;
-	align-items: center;
+	
 }
 
-.answer-item{
-	transition: 300ms;
+
+/* answer items */
+.answer-item{	
 	margin: .5em;
+	transition: 300ms;
 }
+
 .answer-item label{
 	font-size: 1.4em;
 	padding: .2em;
 	top: 1em;
 	text-shadow: 1px 1px var(--fs-purple, #ab61c4);
 }
+
 .answer-item:hover{
 	background: var(--green);
 }
+
 .answer-item:hover label{
 	text-shadow: 1px 1px hsla(0,0%,0%,.5);
 }
 
-
+/* advance question button */
 .next-q{
-	margin-top: .5em;
 	background:linear-gradient(90deg, var(--green) 50%, var(--fs-purple) 50%);
 	background-size:200%;
 	background-position:100%;
-	transition: 180ms;
 	color: white;
+	margin-top: .5em;
+	transition: 180ms;
+	
 }
 
 .next-q:hover{
-	background-position:0%;
+	background-position:0%; /* moves the gradient to the right*/
 }
