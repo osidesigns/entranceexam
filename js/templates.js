@@ -1,5 +1,5 @@
 function answerTemplate(_question_id, _i, _text){
-    let answers = ["a", "b", "c", "d", "e"];
+    let answers = ["a", "b", "c", "d", "e", "f", "g"];
 
     return `
     <li class="answer-item list-group-item">	
