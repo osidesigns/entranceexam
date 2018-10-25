@@ -46,6 +46,7 @@
 					<span id="answer-1-d">Lorem ipsum dolor sit.</span>
 				</li>
 			</ul>
+			<button id="testButton" class="btn btn-block btn-primary">Clear Answers, Replace with Sample Answers</button>
 
 			<button id="submitBtn" class="btn btn-block btn-succss next-q">Next Question</button>			
 		</div>
