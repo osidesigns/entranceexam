@@ -1,39 +1,21 @@
 [
     {
         "id" : 1,
-        "question" : "question text 1",
-        "answers" : "dude\nwhere's\nmy\ncar?",
-        "answerKey" : "b"
+        "question" : "What is the keyboard shortcut to copy a selection?",
+        "a" : "CTRL + C (CMD + C on Mac)",
+        "b" : "CTRL + V (CMD + V on Mac)",
+        "c" : "CTRL + X (CMD + X on Mac)",
+        "d" : "CTRL + P (CMD + P on Mac)",
+        "answerKey" : "CTRL + C (CMD + C on Mac)"
     },
     {
         "id" : 2,
-        "question" : "question text 2",
-        "answers" : "do\nre\nmi\nfa",
-        "answerKey" : "a"
+        "question" : "What is the keyboard shortcut to paste a selection?",
+        "a" : "CTRL + C (CMD + C on Mac)",
+        "b" : "CTRL + V (CMD + V on Mac)",
+        "c" : "CTRL + X (CMD + X on Mac)",
+        "d" : "CTRL + P (CMD + P on Mac)",
+        "answerKey" : "CTRL + V (CMD + V on Mac)"
     },
-    {
-        "id" : 3,
-        "question" : "question text 3",
-        "answers" : "Writing's\non\nthe\nwall",
-        "answerKey" : "d"
-    },
-    {
-        "id" : 4,
-        "question" : "question text 4",
-        "answers" : "I\nwant\nit\nall!",
-        "answerKey" : "c"
-    },
-    {
-        "id" : 5,
-        "question" : "question text 5",
-        "answers" : "Ride\nlike\nthe\nwind",
-        "answerKey" : "a"
-    },
-    {
-        "id" : 6,
-        "question" : "question text 6",
-        "answers" : "To\nthine\nown\nself\nbe\ntrue",
-        "answerKey" : "b"
-    }
-    
+
 ]
